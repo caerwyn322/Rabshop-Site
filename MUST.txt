@@ -1,0 +1,23 @@
+RABSHOP MUST LIST:
+
+MUST have:
+
+-Home page where basic overviews are seen
+-Gallery page that shows photos of previous works
+-About Us page that shows informations regarding Owner (Vision/Mission, background, etc.)
+-Contact Us page that allows potential costumers to see the company's basic contact information as well as sending and feedbacks or questions they may have through forms
+-Services page that shows all the services that the company provides for their costumers.
+-Desktop, Mobile and Tablet views for entire site.
+-Contact form that can send the info straight to company head's work email when form is filled up
+-Form parsing and validification, input verifications and session timeouts and injection nets.
+-Image files "dump site"
+
+COULD have:
+
+-Automated quote maker under the Services page for each service. Quotes made would also be sent to company head for record keeping and notification.
+-Previous Customer feedbacks / grabbing customer feedbacks from online market places.
+-Project details in previous projects from Gallery page. Could be viewed in cards or modals.
+-List of partners (future). Includes sources for materials.
+-Social media buttons (FB, INSTA)
+
+CAN have:
