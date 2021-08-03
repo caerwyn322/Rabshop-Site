@@ -1,0 +1,26 @@
+Project Description
+
+RABSHOP WEBSITE is the website development project meant for the business of Roger Beloy, namely RABSHOP UPHOLSTERY AND GLASS TINTING LTD. This is a newly established business that started a few months after the level 4 quarantine last year of 2020. The business focuses on upholstery work such as furniture vinyl repairs, automotive leather seat recovery and replacement, car headlining replacement, and other general upholstery. Aside from upholstery, the business also offers services in glass tinting, wether it be residential window tinting or authomotive window tinting using various materials ranging from window darkeners for privacy to window tints that hold the glass together for security.
+
+Roger Beloy is a filipino-born immigrant that came to the country a little over 7 - 8 years ago. Before immigrating, he has worked in cruise ships as part of her crew as well as maintenance on the vessels furnitures and beddings. Prior to working in the seas, he has already had a long experience in working in upholstery as his family owns and operates another upholstery shop in the Philippines named MMRS that was started by his father, and is still going strong to date under his younger brother. All of this put together has given him plenty of experience in upholstery that allows him to offer a high level of service to his customers, while his experience in working on cruise ships has given him the necessary level of communication skills needed to face customers.
+
+Project Target Audience
+
+The intended target audience for the project's end product ranges from individuals around the demographic of 18 - 50 or any establishments that require upholstery and glass tinting services such as saloons or parlors, auto dealers, collission repair centres, auto rental businesses, etc.
+
+Project Methodology and Technologies
+
+The site will be built from scratch by coding using the basic website languages such as HTML, CSS and JS. Said technologies will be used for the front-end of the website, with UIkit as the choosen CSS framework alongside VueJS. Back-end wise, vanilla PHP is the main contender but may be subject to change.
+The general methodology for this project will follow closely but not strictly the AGILE/SCRUM methodology in working on smaller increments of the project along side getting input from the owner. Granted the developer lives under the same roof as the product owner which also adds an informal aspect to the project.
+
+Project Deliverables
+
+-Home page that shows landing page informations.
+-Gallery page that shows all previous projects under specified service types
+-About us page that shows the basic public information of the business along side particular individuals who are crucial to said business
+-Contact Us page that shows a from that allows customers to reach out to the business. the page also shows the basic informations needed to contact the business through phone, email, social media and google map address.
+-Services page that shows the various services that the business offers to their customers. May also show a little bit of the processes each services requires and general quotations for each of them.
+-Mobile view of all the elements of the site.
+-Tablet view of all the elements of the site.
+-A stable working image repository that holds all the dynamic images the site contains.
+-A "dumbed down" content management system made for the product owner where he can change images, infos, add new services, etc.
