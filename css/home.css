@@ -1,9 +1,20 @@
 body{
 	width:100%;
 }
-nav, main, .carousel{
+nav, main{
 	width: 80%;
 	margin: 0 auto;
+}
+nav{
+	z-index: 2;
+}
+.carousel{
+	width: 100%;
+	height: 100vh;
+	margin-top: -9.5rem;
+}
+.carousel ul{
+	height: 100%;
 }
 main{
 	height: 60rem;

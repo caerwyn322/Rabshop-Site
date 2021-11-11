@@ -11,11 +11,13 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
 	</head>
 		
 	<body class="uk-background-cover" style="background-image: url(img/bg2.jpg)">
+		<!--NAV-->
 		<nav class="uk-navbar-containter uk-height-small" uk-navbar="dropbar: true">
 			<div class="uk-navbar-left uk-margin-left">
 				<a href="home.html" class="uk-navbar-item uk-height-max-small uk-logo">
@@ -24,14 +26,14 @@
 			</div>
 			<div class="uk-navbar-right uk-margin-medium-right">
 				<ul class="uk-navbar-nav nav-items">
-					<li class="uk-text-bold"><a class="" href="">Gallery</a></li>
+					<li class="uk-text-bold"><a class="uk-button uk-button-default" href="">Gallery</a></li>
 					<li class="uk-text-bold nav-items">
-						<a href="">Services</a>
+						<a class="uk-button uk-button-default" href="">Services</a>
 						<div class="uk-navbar-dropdown">
 							<ul class="uk-nav uk-navbar-dropdown-nav dropdown-nav">
-								<li class=""><a href="">Upholstery</a></li>
-								<li><a href="">Tinting</a></li>
-								<li><a href="">General Repairs and Recovery</a></li>
+								<li class=""><a class="uk-button uk-button-default" href="">Upholstery</a></li>
+								<li><a class="uk-button uk-button-default" href="">Tinting</a></li>
+								<li><a class="uk-button uk-button-default" href="">General Repairs and Recovery</a></li>
 							</ul>
 						</div>
 					</li>
@@ -40,7 +42,8 @@
 				</ul>
 			</div>
 		</nav>
-		<div class="uk-cover-container uk-container-expand carousel" tabindex="0" uk-slideshow="animation:pull;autoplay: true; ratio:7:3">
+		<!--Carousel-->
+		<div class="uk-cover-container uk-container-expand carousel" tabindex="0" uk-slideshow="animation:pull;autoplay: true; ratio:7:3" >
 			<ul class="uk-slideshow-items">
 				<li>
 					<img src="img/tint 1.jpg"  alt="Car tint 1" uk-cover>

@@ -1,0 +1,125 @@
+
+/*Banner*/
+.banner{
+	z-index:0;
+	width: 100%;
+	height: 100vh;
+	margin-top: -10rem;
+	position:relative;
+	margin-bottom: 2.5rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.banner-text{
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+	color: #ddd;
+	position: absolute;
+	top:70%;
+	left:70%;
+	transform: translate(-50%, -50%);
+	line-height:1.5;
+	text-align: justify;
+}
+
+/*Home Text*/
+.home-text{
+	width: 80%;
+	margin: 0 auto;
+	height: 50vh;
+	font-family: 'Mohave', sans-serif;
+	font-size: 2.1rem;
+	text-align: justify;
+}
+
+/*Services*/
+.home-services{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	margin-bottom: 10rem;
+}
+.service-title h1, .home-about-txt h1{
+	text-transform:uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3rem;
+	text-align: justify;
+}
+.service-cards{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	width: 100%;
+	height: 15rem;
+}
+.service{
+	position:relative;
+	width:15%;
+	height: 100%;
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.service img{
+	width: 100%;
+	height: 100%;
+}
+.service p{
+	position:absolute;
+	font-family: 'Mohave', sans-serif;
+	font-size: 2rem;
+	text-align: justify;
+	color:#00fff7;
+	top: 50%;
+    left: 50%;
+	overflow-wrap: break-word;
+    transform: translate(-50%, -50%);
+}
+
+/*Home About Us*/
+.home-about{
+	width:80%;
+	height: 60vh;
+	margin: 0 auto 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.home-about-imgs{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+	margin-right: 1rem;
+}
+.home-about-imgs img{
+	width:100%;
+	height:50%;
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+}
+.home-about-txt{
+	width:55%;
+	height:100%;
+	margin-left:1rem;
+	display:flex;
+	flex-direction:column;
+	text-align: left;
+	font-family: 'Mohave', sans-serif;
+	font-size: 2rem;	
+}
+.home-about-btn:hover{
+	color:#fcba03;
+	background-color:#666360;
+}
+.home-about-btn{
+	margin:0;
+}
+

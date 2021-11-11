@@ -1,0 +1,194 @@
+/* html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+} */
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #E5CCE1;
+}
+
+.nav_logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.nav_logo nav ul li a, .nav_logo h1 a {
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #2820CF;
+}
+
+.nav_logo nav a:hover {
+  color: white;
+}
+
+.nav_logo nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header, .nav_logo a h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.sides {
+  position: absolute;
+  right: 8rem;
+}
+
+.sides i {
+  font-size: 1rem;
+  color: #2820CF;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+#cookies , #cookieblue {
+  width: 100%;
+ 
+}
+
+#firstheading h1 {
+  text-align: left;
+  position: absolute;
+  letter-spacing: 2px;
+  line-height: 5rem;
+  left: 7rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: #2820CF;
+}
+
+#firstheading p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  color: #2820CF;
+  text-align: left;
+  position: absolute;
+  left: 7rem;
+  top: 23rem;
+}
+
+#subheading {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  color: #2820CF;
+}
+
+#bestsellers{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+#bestsellers div{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #2820CF;
+}
+#bestsellers div img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+#shopbutton {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+#shopbutton {
+  background-color: #2820CF;
+  color: white;
+  border: 1px solid white;
+  /* --> should be white once it's in the image <-- */
+  padding: 1em;
+}
+
+#shopbutton:hover {
+  background-color: white;
+  border: 1px solid #2820CF;
+  color: #2820CF;
+}
+
+#logo {
+  width: 17%;
+}
+
+/* #thirdheading{
+	width: 100%;
+	position: relative;
+	color: white;
+}
+#thirdheading img{
+	width: 100%;
+}
+#thirdheading div{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	position: absolute;
+	top:10%;
+	right: 1em;
+	
+}
+#thirdheading div h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 4rem;
+}
+
+#thirdheading div p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2rem;
+	text-align: left;
+} */
+
+#thirdheading{
+	position: relative;
+	color: white;
+}
+#thirdheading img{
+	width: 100%;
+}
+#thirdheading div{
+	width: 60%;
+	display:block;
+	text-align: left;
+	position: absolute;
+	top:10%;
+	right: 1em;
+}
+#thirdheading div h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 4rem;
+}
+
+#thirdheading div p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2rem;
+	text-align: left;
+} 
