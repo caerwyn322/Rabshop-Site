@@ -67,14 +67,23 @@
 			</div>
 		</div>
 		
+		<!--Form-->
 		<div class="contact-form">
-			<form>
-			
+			<form class="form" method="GET" action="Contact Us.html">
+				<input type="text" class="form-input" required="required" placeholder="Fullname" id="form-fname" name="Fullname"></input>
+				<div class="cross-input">
+					<input type="email" class="form-input" required="required" placeholder="Email" id="form-email" name="Email"></input>
+					<input type="tel" class="form-input" required="required" placeholder="Phone Number" id="form-number" name="Phonenumber" pattern="[0-9]{3}[0-9]{7-8}"></input>
+				</div>
+				<textarea type="text" required="required" placeholder="Flick us a message.." id="form-tbox" name="Message"></textarea>
+				<input type="submit" value="Submit" class="form-btn">
 			</form>
+			<div class="form-details">
+				<p>If theres anything that we can help you with, don't be afraid to flick us a message and we'll see what we can do for you!<br><br>
+				
+				Also, if you need more info for any of the services that we offer, check out the <a href=> Services </a> page.</p>
+			</div>
 		</div>
-		
-		
-		
 		
 		
 		<footer class="footer">

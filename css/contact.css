@@ -39,3 +39,69 @@
 	display: flex;
 	flex-direction: column;
 }
+
+/*Form*/
+.contact-form{
+	width: 80%;
+	height: 60vh;
+	margin: 0 auto;
+	display:flex;
+	flex-direction: row-reverse;
+	margin-bottom: 5rem;
+}
+.form{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.5rem;
+}
+.form-input{
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	font-family: 'Mohave', sans-serif;
+	font-size: 1.5rem;
+	border-radius:0.5rem;
+	border:0;
+}
+
+.form-details{
+	width:40%;
+	font-family: 'Mohave', sans-serif;
+	font-size: 2.1rem;
+	text-align: justify;
+	margin-right: 0.5rem;	
+}
+.form-details p{
+	margin:0;
+}
+
+.cross-input{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.cross-input input{
+	width:50%;
+}
+#form-email{
+	margin-right: 0.5rem;
+}
+#form-number{
+	margin-left: 0.5rem;
+}
+#form-tbox{
+	font-family: 'Mohave', sans-serif;
+	font-size: 1.5rem;
+	border-radius:0.5rem;
+	height: 40vh;
+	text-align: justify;
+	border:0;
+}
+.form-btn{
+	height:3rem;
+	margin-top:1rem;
+	width: 6rem;
+	font-family: 'Mohave', sans-serif;
+	font-size: 1.5rem;
+}
