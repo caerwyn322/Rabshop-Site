@@ -1,0 +1,43 @@
+/*Banner*/
+.banner{
+	z-index:0;
+	width: 100%;
+	height: 100vh;
+	margin-top: -10rem;
+	position:relative;
+	margin-bottom: 2.5rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+
+.about-frame{
+	width: 80%;
+	margin: 0 auto;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: justify;
+	align-items: center;
+}
+.rabshop-details, .mmrs-details{
+	font-family: 'Mohave', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width:50%;
+}
+.rabshop-details img, .mmrs-details img{
+	width: 100%;
+	height: 25rem;
+}
+.rabshop-details p, .mmrs-details p{
+	font-size: 1.5rem;
+}
+.about-line{
+	border: 4px solid #AFABB0;
+	height: 100%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
