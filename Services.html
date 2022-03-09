@@ -14,8 +14,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Condensed:wght@300;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="css/all.css" rel="stylesheet"> 
-		
+		<link href="css/all.css" rel="stylesheet">
+		<script src="js/services.js"></script>
 	</head>
 	<body>
 		<!--NAV-->
@@ -23,7 +23,7 @@
 			<div class="logo" >
 				<!-- <a href="home2.html">
 					<img src="img/logo-trans.png" class="logo-img" alt="Rabshop Logo">
-				</a> -->				
+				</a> -->
 			</div>
 			<div class="nav-list">
 				<ul>
@@ -32,12 +32,12 @@
 						<div class="dropdown">
 							<button class="drop-btn" onclick="window.location.href='Services.html'">Services <i class="fas fa-caret-down"></i> </button>
 							<div class="drop-content">
-								<a href="">Commercial Upholstery</a>
-								<a href="">Automotive Upholstery</a>
-								<a href="">Marine Upholstery</a>
-								<a href="">Residential Tinting</a>
-								<a href="">Commercial Tinting</a>
-								<a href="">Automotive/Marine Tinting</a>
+								<a href="Services.html">Commercial Upholstery</a>
+								<a href="Services.html">Automotive Upholstery</a>
+								<a href="Services.html">Marine Upholstery</a>
+								<a href="Services.html">Residential Tinting</a>
+								<a href="Services.html">Commercial Tinting</a>
+								<a href="Services.html">Automotive/Marine Tinting</a>
 							</div>
 						</div>
 					</li>
@@ -46,7 +46,7 @@
 				</ul>
 			</div>
 		</div>
-		
+
 		<!--Banner-->
 		<div class="banner">
 			<img src="img/serv2.jpg" alt="Company Banner">
@@ -54,12 +54,37 @@
 				<p class="">See what we can do for you!</p>
 			</div>
 		</div>
-		
+
+		<!--Modal-->
+		<div id="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<form class="quote-form" method="POST" action="Services.html">
+					<input type="text" class="quote-input" required="required" placeholder="Name" id="quote-name" name="Name"></input>
+					<input type="email" class="quote-input" required="required" placeholder="Email" id="quote-email" name="Email"></input>
+					<input type="tel" class="quote-input" required="required" placeholder="Phonenumber" id="quote-number" name="Phonenumber" pattern="[0-9]{3}[0-9]{7-8}"></input>
+					<label for="input-services">Service: </label>
+					<select id="quote-services" name="input-services">
+						<option value="res-uph">Residential Upholstery</option>
+						<option value="com-uph">Commercial Upholstery</option>
+						<option value="aut-uph">Automotive Upholstery</option>
+						<option value="mar-uph">Marine Upholstery</option>
+						<option value="res-tint">Residential Tinting</option>
+						<option value="com-tint">Commercial Tinting</option>
+						<option value="aut-tint">Automotive Tinting</option>
+					</select>
+					<label for="input-image">Upload Images (Max of 10)</label>
+					<input type="file" id="quote-image" name="Image" accept="image/*" multiple="true" multiple size="10"></input>
+					<textarea type="text" required="required" placeholder="What can we do for you?" id="quote-tbox" name="Message"></textarea>
+					<input type="submit" value="Submit" id="quote-submit"></input>
+				</form>
+			</div>
+		</div>
 		<!--Services-->
 		<div class="service-frame">
 			<div class="upholstery-services">
 				<h1>Upholstery Services</h1>
-				<div class="services">	
+				<div class="services">
 					<div class="service-card">
 						<img src="img/res up 1.jpg" alt="Residential Upholstery">
 						<p> Residential Upholstery</p>
@@ -79,12 +104,12 @@
 					</div>
 				</div>
 				<div>
-					<button class="quote-btn" onclick="" type="button">Free quotes</button>
+					<button id="quote-btn">Free quotes</button>
 				</div>
 			</div>
 			<div class="tint-services">
 				<h1>Tinting Services</h1>
-				<div class="services">	
+				<div class="services">
 					<div class="service-card">
 						<img src="img/res tint.jpg" alt="Residential Tinting">
 						<p> Residential Tinting</p>
@@ -99,16 +124,18 @@
 					</div>
 				</div>
 				<div>
-					<button class="quote-btn" onclick="" type="button">Free quotes</button>
+					<button  onclick="" type="button">Free quotes</button>
 				</div>
 			</div>
 		</div>
+
+
 		<!--Footer-->
 		<footer class="footer">
 			<div class="map">
 				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.540511200292!2d172.52150021549383!3d-43.532773679125555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d31f576adfb6dc1%3A0xc91af59631c67281!2s43%20Manurere%20Street%2C%20Hei%20Hei%2C%20Christchurch%208042!5e0!3m2!1sen!2snz!4v1636579076100!5m2!1sen!2snz" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
 			</div>
-			<div class="contact-details">	
+			<div class="contact-details">
 			</div>
 			<div class="social-media">
 				<p>We'd like to hear from you. Connect with us through the following media platforms:</p>
@@ -116,5 +143,18 @@
 				<a href="https://www.instagram.com/rabshop_upholstery/"><i class="fab fa-instagram-square"></i></a>
 			</div>
 		</footer>
-	</body
+		<script>
+			var modal_btn = document.getElementbyId("quote-btn");
+			var modal = document.getElementbyId("modal");
+			modal_btn.onclick = function(){
+				modal.style.display = "block";
+			};
+			window.onclick =function(){
+				if(event.target == modal){
+					modal.style.display = "none";
+				};
+			};
+		</script>
+	</body>
+
 </html>
