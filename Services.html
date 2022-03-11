@@ -15,7 +15,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="css/all.css" rel="stylesheet">
-		<script src="js/services.js"></script>
+
 	</head>
 	<body>
 		<!--NAV-->
@@ -58,8 +58,9 @@
 		<!--Modal-->
 		<div id="modal">
 			<div class="modal-content">
-				<span class="close">&times;</span>
+				<span id="close">&times;</span>
 				<form class="quote-form" method="POST" action="Services.html">
+					<h1>Let Us Know</h1>
 					<input type="text" class="quote-input" required="required" placeholder="Name" id="quote-name" name="Name"></input>
 					<input type="email" class="quote-input" required="required" placeholder="Email" id="quote-email" name="Email"></input>
 					<input type="tel" class="quote-input" required="required" placeholder="Phonenumber" id="quote-number" name="Phonenumber" pattern="[0-9]{3}[0-9]{7-8}"></input>
@@ -104,7 +105,7 @@
 					</div>
 				</div>
 				<div>
-					<button id="quote-btn">Free quotes</button>
+					<button class="free-quote" onclick="modalOpen()">Free quotes</button>
 				</div>
 			</div>
 			<div class="tint-services">
@@ -124,7 +125,7 @@
 					</div>
 				</div>
 				<div>
-					<button  onclick="" type="button">Free quotes</button>
+					<button class="free-quote" onclick="modalOpen()" type="button">Free quotes</button>
 				</div>
 			</div>
 		</div>
@@ -143,18 +144,7 @@
 				<a href="https://www.instagram.com/rabshop_upholstery/"><i class="fab fa-instagram-square"></i></a>
 			</div>
 		</footer>
-		<script>
-			var modal_btn = document.getElementById("quote-btn");
-			var modal = document.getElementById("modal");
-			modal_btn.onclick = function(){
-				modal.style.display = "block";
-			};
-			window.onclick =function(){
-				if(event.target == modal){
-					modal.style.display = "none";
-				};
-			};
-		</script>
+		<script src="js/services.js"></script>
 	</body>
 
 </html>
